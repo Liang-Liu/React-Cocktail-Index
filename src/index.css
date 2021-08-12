@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
+* {
+	/* outline: 1px solid black; */
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	padding-bottom: 20px;
+	background-color: #424242;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+#navlogo {
+	max-height: 3rem;
+	border-radius: 0.3rem;
+}
+
+#homepageHero {
+	background-size: cover;
+}
+#homeImg-container {
+	top: -100px;
+	bottom: 0;
+	z-index: -10;
+	opacity: 0.5;
+}
+#hometext {
+	color: #fff;
+	font-weight: 900;
+	font-style: italic;
+}
+
+#search {
+	opacity: 0.8;
+	outline: none;
+	color: #464646;
+	font-weight: 800;
+}
+/* card style */
+
+.container-card {
+	background-color: rgba(57, 62, 93, 0.7);
+	padding: 0;
+	overflow: hidden;
+	max-width: 350px;
+	margin: 5px;
+}
+
+.container-card article {
+	padding: 10%;
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+}
+
+.container-card h2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 25px;
+	border-bottom: #fff solid 1px;
+}
+
+.container-card h4 {
+	font-weight: 400;
+	color: #fff;
+	font-size: 16px;
+}
+
+.container-card img {
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+/* hover */
+
+.container-card:hover {
+	cursor: pointer;
+}
+
+.container-card:hover img {
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+/* cocktail-details page */
+#cocktail-details {
+	color: #fff;
+}
+
+.iconBtn {
+	color: #6d6d6d;
+}
+.iconBtn:hover {
+	color: #1b1b1b;
+}
+
+#cocktail-detail-text {
+	max-width: 40rem;
+}
