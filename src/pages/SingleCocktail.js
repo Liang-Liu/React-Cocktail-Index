@@ -8,13 +8,11 @@ const SingleCocktail = () => {
 	const [loading, setLoading] = useState(false);
 	const [info, setInfo] = useState({});
 	const { id } = useParams();
-	console.log(useParams());
 
 	async function getCocktailById(id) {
 		setLoading(true);
 		const res = await fetch(url + id);
 		const resJson = await res.json();
-		console.log(resJson);
 		setInfo(resJson.drinks[0]);
 		setLoading(false);
 	}
@@ -31,7 +29,6 @@ const SingleCocktail = () => {
 		strGlass,
 		strInstructions,
 	} = info;
-	console.log(info);
 
 	if (loading) {
 		return <Loading />;
