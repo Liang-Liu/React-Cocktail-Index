@@ -32,8 +32,8 @@ function App() {
 				</Switch>
 			</Router>
 
-			<footer class="footer mt-auto py-3 bg-dark">
-				<div class="container text-center font-weight-light text-muted">
+			<footer className="footer mt-auto py-3 bg-dark">
+				<div className="container text-center font-weight-light text-muted">
 					Copyright © 2021. Powered by The Cocktail DB
 				</div>
 			</footer>

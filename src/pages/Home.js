@@ -11,18 +11,18 @@ const Home = () => {
 	return (
 		<div>
 			<section
-				class=" text-center container-fluid position-relative overflow-hidden py-sm-5 "
+				className=" text-center container-fluid position-relative overflow-hidden py-sm-5 "
 				id="homepageHero"
 			>
-				<div class="row py-lg-5 ">
+				<div className="row py-lg-5 ">
 					<div
 						className="img-container position-absolute"
 						id="homeImg-container"
 					>
-						<img className="img-fluid" src={homeImg} alt="home Image" />
+						<img className="img-fluid" src={homeImg} alt="homeImage" />
 					</div>
-					<div class="col-lg-6 col-md-8 mx-auto">
-						<h1 class="py-2 py-sm-5" id="hometext">
+					<div className="col-lg-6 col-md-8 mx-auto">
+						<h1 className="py-2 py-sm-5" id="hometext">
 							Pour Yourself A Drink
 						</h1>
 						<SearchForm />

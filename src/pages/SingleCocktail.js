@@ -21,12 +21,12 @@ const SingleCocktail = () => {
 
 	useEffect(() => {
 		getCocktailById(id);
-	}, []);
+	}, [id]);
 
 	const {
-		idDrink,
+		// idDrink,
 		strDrink,
-		strCategory,
+		// strCategory,
 		strDrinkThumb,
 		strGlass,
 		strInstructions,
@@ -44,7 +44,7 @@ const SingleCocktail = () => {
 		>
 			<Link to="/">
 				<button className="position-absolute top-0 end-0 border-0 fs-3 iconBtn rounded me-2 px-2">
-					<i class="fas fa-arrow-left"></i>
+					<i className="fas fa-arrow-left"></i>
 				</button>
 			</Link>
 			<div className="img-container">

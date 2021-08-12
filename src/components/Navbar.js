@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
-// import navlogo from "../image/logo.svg";
+import { Link } from "react-router-dom";
 import navlogo from "../image/brandlogo.jpg";
 
 const Navbar = () => {
@@ -14,10 +13,9 @@ const Navbar = () => {
 						alt="React Logo"
 						id="navlogo"
 					/>
-					{console.log(navlogo)}
 				</Link>
 				<button
-					class="navbar-toggler"
+					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent"
@@ -25,7 +23,7 @@ const Navbar = () => {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
 
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">

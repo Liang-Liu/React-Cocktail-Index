@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useGlobalContext, useGlobalContextHook } from "../context";
+import { useGlobalContextHook } from "../context";
 
 const SearchForm = () => {
 	const [searchTerm, setSearchTerm] = useState("");
-	const { state, dispatch, getCocktailBySearch } = useGlobalContextHook();
+	const { getCocktailBySearch } = useGlobalContextHook();
 
 	function handleSubmit(e) {
 		e.preventDefault();
@@ -12,7 +12,7 @@ const SearchForm = () => {
 	}
 	return (
 		<div>
-			<form class="d-flex" onSubmit={handleSubmit}>
+			<form className="d-flex" onSubmit={handleSubmit}>
 				<input
 					className="form-control me-2 text-center rounded-pill"
 					type="search"

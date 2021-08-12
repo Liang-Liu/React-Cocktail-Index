@@ -5,10 +5,10 @@ const Cocktail = ({ info }) => {
 	const {
 		idDrink,
 		strDrink,
-		strCategory,
+		// strCategory,
 		strDrinkThumb,
 		strGlass,
-		strInstructions,
+		// strInstructions,
 	} = info;
 
 	return (
@@ -22,7 +22,7 @@ const Cocktail = ({ info }) => {
 							alt={strDrink}
 						/>
 					</div>
-					<article class="text-left">
+					<article className="text-left">
 						<h2>{strDrink}</h2>
 						<h4>{strGlass}</h4>
 					</article>
