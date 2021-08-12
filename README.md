@@ -1,11 +1,3 @@
-#### React Router Fix
+# React-Cocktail-Index-App
 
-(Fix)[https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc]
-
-#### CRA Fix
-
-```
-
-"build": "CI= react-scripts build",
-
-```
+React-Cocktail-Index-App
