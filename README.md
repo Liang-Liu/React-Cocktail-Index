@@ -2,7 +2,7 @@
 
 <p  align="center"><i>A React and Bootstrap 5 based cocktail index SPA(Single Page Application), with search feature.</i></p>
 
-![App Preview](./readme_img/ll-mern-blog-app-client.netlify.app_1080.png)
+![App Preview](./readme_img/ll-react-cocktail-index.netlify.app_1080.png)
 
 ## Table of Contents
 
